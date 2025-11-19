@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1 class="vip-title">NX-304 : RandomQuote</h1>
+
+  <div class="card">
+    <!-- Quote Icon -->
+    <i class="fa-solid fa-quote-left icon-top"></i>
+
+    <!-- Quote Text -->
+    <p class="quote-text" id="quoteDisplay">En attente du serveur...</p>
+
+    <!-- Author Section -->
+    <div class="author">
+      <i class="fa-solid fa-user"></i>
+      <span id="authorDisplay">En attente du serveur...</span>
+    </div>
+
+    <!-- Refresh Button -->
+   <div class="btnContainer">
+      <button class="btn-refresh" id="newQuoteBtn">
+      <i class="fa-solid fa-rotate"></i> Nouvelle citation
+    </button>
+
+    <!-- Copy Button -->
+    <button class="btn-refresh" id="copyBtn" style="background:linear-gradient(135deg,#10b981,#059669);">
+      <i class="fa-solid fa-copy"></i> Copier
+    </button>
+   </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
